@@ -109,7 +109,7 @@
 									</div>
 								</header>
 								{% if "img" in article %}
-									<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+                                    <a href="#" class="image featured"><img src="{{ article['img'] }}" alt="" /></a>
 								{% endif %}
 								<p>{{ article["content"] }}</p>
 								<footer>
